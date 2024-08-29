@@ -1,0 +1,32 @@
+.blogContainer {
+    width: 80%;
+    margin: auto;
+    padding: 100px 0 20px 0; /* Add top padding to offset the navbar */
+  }
+  
+  .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .textContainer {
+    flex: 1;
+    padding-left: 20px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .carousel .control-prev.control-arrow:before {
+    border-right: 8px solid #333;
+  }
+  
+  .carousel .control-next.control-arrow:before {
+    border-left: 8px solid #333;
+  }
+  
